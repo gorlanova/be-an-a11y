@@ -1,0 +1,158 @@
+:root {
+  /* hero title */
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe, #41d1ff);
+
+  /* brand colors */
+  --vp-c-brand-1: #424bff;
+  --vp-c-brand-2: #6c74fc;
+  --vp-c-brand-3: #5a63ff;
+
+  /* shiki */
+  --shiki-lang: #000000;
+}
+
+:root.dark {
+  /* brand colors */
+  --vp-c-brand-1: #8086ff;
+  --vp-c-brand-2: #6c74fc;
+  --vp-c-brand-3: #5a63ff;
+
+  /* shiki */
+  --shiki-lang: #cccccc;
+}
+
+/* => doc page container */
+
+.VPDoc.has-aside .content-container {
+  max-width: 100% !important;
+}
+
+/* => doc elements */
+
+.vp-doc h2:not(.vp-raw h2) {
+  margin-block: var(--size-8);
+  padding-block: 0 var(--size-2);
+  border-block-start: 0;
+  border-block-end: 1px solid var(--vp-c-divider);
+}
+
+.vp-doc h2:not(.vp-raw h2) .header-anchor {
+  inset-block-start: 0;
+}
+
+.vp-doc .doc-muted {
+  color: var(--text-neutral-muted);
+}
+
+/* => vue guidelines */
+
+.tags-info-list li {
+  align-items: baseline;
+}
+
+.filters-header {
+  margin-block-end: var(--size-4);
+}
+
+.vp-raw .filters-label {
+  font-size: var(--size-3-5);
+  font-style: normal;
+  margin-block-start: 0 !important;
+}
+
+.filters .mn-button[aria-pressed="true"] > * {
+  outline: 2px solid var(--full-neutral);
+  outline-offset: 2px;
+}
+
+.tag-team {
+  min-width: var(--size-16);
+  text-align: center;
+}
+
+.tag-difficulty {
+  min-width: var(--size-15);
+  text-align: center;
+}
+
+.tag-level {
+  min-width: var(--size-11);
+  text-align: center;
+}
+
+h3,
+.vp-doc h3 {
+  font-size: var(--size-5);
+  font-style: italic;
+}
+
+.vp-raw h3:not(li:first-child > h3) {
+  margin-block-start: var(--size-4);
+}
+
+h4,
+.vp-doc h4 {
+  width: max-content;
+  margin-inline-start: var(--size-2);
+  padding-inline: var(--size-2);
+  background-color: var(--bg-accent-hover);
+  border-radius: var(--app-radius);
+  font-size: var(--size-4);
+}
+
+.vp-raw div:has(> h4):not(li:first-child > div:has(> h4)) {
+  margin-block-start: var(--size-2);
+}
+
+.guideline-description {
+  margin-inline-start: var(--size-4);
+}
+
+.criterion-summary :not(:first-child) {
+  justify-self: center;
+}
+
+.vp-raw h5 {
+  font-size: var(--size-3-5);
+  scroll-margin-block-start: var(--size-30);
+}
+
+.vp-raw h5.-highlight {
+  text-decoration: underline;
+  text-decoration-color: var(--icon-accent);
+  text-decoration-style: double;
+  text-decoration-skip-ink: none;
+}
+
+.vp-raw .criterion-section ~ .criterion-section {
+  margin-block-start: var(--size-4);
+}
+
+.vp-raw .mn-icon:has(+ h6) {
+  color: var(--icon-accent);
+}
+
+.vp-raw h6 {
+  font-style: normal;
+  font-size: var(--size-4);
+  text-decoration: underline;
+  text-decoration-color: var(--icon-accent);
+}
+
+.vp-raw .criterion-list .mn-icon {
+  margin-block-start: var(--size-1);
+  color: var(--icon-neutral);
+}
+
+code {
+  width: max-content;
+  display: inline-block;
+  padding: var(--size-1) var(--size-1-5);
+  background-color: var(--bg-neutral-emphasis);
+  border-radius: calc(var(--app-radius, var(--radius-soft)) / 2);
+  font-size: var(--size-3-5);
+  line-height: 1;
+  box-shadow: var(--box-shadow-1);
+  color: var(--text-neutral-muted) !important;
+}
