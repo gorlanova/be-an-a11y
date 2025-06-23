@@ -55,10 +55,20 @@
   margin-block-end: var(--size-4);
 }
 
+.filters-search {
+  width: 100%;
+}
+
 .vp-raw .filters-label {
   font-size: var(--size-3-5);
+  font-weight: 500;
   font-style: normal;
   margin-block-start: 0 !important;
+}
+
+.filters .mn-button {
+  display: grid;
+  border-radius: var(--app-radius, var(--radius-soft));
 }
 
 .filters .mn-button[aria-pressed="true"] > * {

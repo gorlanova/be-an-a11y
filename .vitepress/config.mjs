@@ -5,12 +5,16 @@ export default defineConfig({
   title: "✨ Be an a11y",
   description: "Demystifying the WCAG Guidelines",
 
+  head: [["link", { rel: "icon", type: "image/svg+xml", href: "/accessibility-light.svg" }]],
+
   themeConfig: {
     nav: [
       { text: "Get started", link: "/01-get-started/01-introduction" },
       { text: "Guidelines", link: "/02-guidelines/01-wcag-guidelines" },
       { text: "Resources", link: "/03-resources/01-testing-your-interfaces" },
     ],
+
+    socialLinks: [{ icon: "github", link: "https://github.com/gorlanova/be-an-a11y" }],
 
     sidebar: [
       {

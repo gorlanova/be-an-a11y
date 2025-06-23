@@ -38,4 +38,18 @@ features:
 .VPImage.image-src {
   filter: drop-shadow(-3rem -3rem 3rem #47caffa6) drop-shadow(3rem 3rem 3rem #bd34fea6) saturate(1.2);
 }
+
+.VPHero .VPButton {
+  border: 0;
+  padding-block: 1px !important;
+}
+
+.VPHero .VPButton.brand {
+  background: var(--vp-home-hero-name-background);
+  transition: filter 0.3s ease-in-out;
+}
+
+.VPHero .VPButton.brand:hover {
+  filter: brightness(0.9);
+}
 </style>

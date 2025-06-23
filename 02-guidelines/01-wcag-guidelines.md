@@ -2,7 +2,7 @@
 
 <script setup>
   import Details from '../components/details.vue';
-  import { Container, Title, Tag, Text, Button, Label, Link, Icon, Feedback, Code } from '@owlabio/minuit';
+  import { Container, Title, Tag, Text, Button, Label, Link, Icon, Feedback, Code, Input } from '@owlabio/minuit';
   import { guidelines } from '../guidelines';
   import { computed, ref } from 'vue';
 
@@ -19,6 +19,7 @@
   }
 
   const filter = ref({
+    search: '',
     levels: [],
     difficulties: [],
     teams: [],
@@ -35,10 +36,20 @@
       children: principle.children.map(guideline => ({
         ...guideline,
         children: guideline.children.filter(criterion => {
+          const matchesSearch = filter.value.search ?
+            criterion.label.toLowerCase().includes(filter.value.search.toLowerCase()) ||
+            criterion.content.goal.toLowerCase().includes(filter.value.search.toLowerCase()) ||
+            criterion.content.description.toLowerCase().includes(filter.value.search.toLowerCase()) ||
+            criterion.content.descriptionList.some(item => item.toLowerCase().includes(filter.value.search.toLowerCase())) ||
+            criterion.content.examples.some(example => example.toLowerCase().includes(filter.value.search.toLowerCase())) ||
+            criterion.content.methods.some(method => method.toLowerCase().includes(filter.value.search.toLowerCase())) ||
+            criterion.content.resources.some(resource => resource.label.toLowerCase().includes(filter.value.search.toLowerCase())) :
+            true;
+          
           const hasLevel = !filter.value.levels.length || filter.value.levels.includes(criterion.level);
           const hasDifficulty = !filter.value.difficulties.length || filter.value.difficulties.includes(criterion.difficulty);
           const hasTeam = !filter.value.teams.length || filter.value.teams.some(team => criterion.teams.includes(team));
-          return hasLevel && hasDifficulty && hasTeam;
+          return matchesSearch && hasLevel && hasDifficulty && hasTeam;
         }),
       })).filter(guideline => guideline.children.length > 0),
     })).filter(principle => principle.children.length > 0);
@@ -62,6 +73,7 @@
 
   function resetFilter() {
     filter.value = {
+      search: '',
       levels: [],
       difficulties: [],
       teams: [],
@@ -74,9 +86,11 @@
 <div class="vp-raw">
   <Container class="filters-header" flow="row-between">
     <Text muted>Number of criteria displayed with the current filters: {{ numberOfDisplayedCriteria }}/87</Text>
-    <Button label="Reset" @click="resetFilter" variant="border" :disabled="!filter.levels.length && !filter.difficulties.length && !filter.teams.length" />
+    <Button label="Reset" @click="resetFilter" variant="border" :disabled="!filter.search && !filter.levels.length && !filter.difficulties.length && !filter.teams.length" />
   </Container>
   <Container class="filters" flow="row" gap="var(--size-4)">
+    <!-- Search -->
+    <Input class="filters-search" label="search" type="search" v-model="filter.search" />
     <!-- Teams -->
     <Container flow="row" gap="var(--size-3-5)">
       <Title tag="h3" class="filters-label">Teams</Title>

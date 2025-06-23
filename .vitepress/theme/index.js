@@ -9,12 +9,11 @@ export default {
   extends: DefaultTheme,
   async enhanceApp({ app }) {
     // Only use the plugin on the client side
-        // Only use the plugin on the client side
     if (!import.meta.env.SSR) {
       library.add(icons);
       const { minuit } = await import("@owlabio/minuit");
 
-      app.use(minuit);
+      app.use(minuit, { neutral: "zinc" });
     }
   },
 };

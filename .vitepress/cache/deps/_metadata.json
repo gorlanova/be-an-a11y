@@ -1,67 +1,67 @@
 {
-  "hash": "9d134738",
-  "configHash": "9a298696",
+  "hash": "dcd5a083",
+  "configHash": "eedc05c1",
   "lockfileHash": "9ee511f7",
-  "browserHash": "9d25bfaa",
+  "browserHash": "762a06b1",
   "optimized": {
     "vue": {
       "src": "../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "c246fb95",
+      "fileHash": "c535cbd1",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "4f7735bb",
+      "fileHash": "57115f46",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "e12ed8e9",
+      "fileHash": "907b8fd2",
       "needsInterop": false
     },
     "vitepress > @vueuse/integrations/useFocusTrap": {
       "src": "../../../node_modules/@vueuse/integrations/useFocusTrap.mjs",
       "file": "vitepress___@vueuse_integrations_useFocusTrap.js",
-      "fileHash": "ec1efb5f",
+      "fileHash": "935c4551",
       "needsInterop": false
     },
     "vitepress > mark.js/src/vanilla.js": {
       "src": "../../../node_modules/mark.js/src/vanilla.js",
       "file": "vitepress___mark__js_src_vanilla__js.js",
-      "fileHash": "bc226936",
+      "fileHash": "ac8f04d5",
       "needsInterop": false
     },
     "vitepress > minisearch": {
       "src": "../../../node_modules/minisearch/dist/es/index.js",
       "file": "vitepress___minisearch.js",
-      "fileHash": "86df0813",
+      "fileHash": "c41a2c3b",
       "needsInterop": false
     },
     "@fortawesome/fontawesome-svg-core": {
       "src": "../../../node_modules/@fortawesome/fontawesome-svg-core/index.mjs",
       "file": "@fortawesome_fontawesome-svg-core.js",
-      "fileHash": "44ff3969",
+      "fileHash": "ec9fafe7",
       "needsInterop": false
     },
     "@owlabio/minuit": {
       "src": "../../../node_modules/@owlabio/minuit/dist/minuit.js",
       "file": "@owlabio_minuit.js",
-      "fileHash": "56d80d1c",
+      "fileHash": "3d8ea8fc",
       "needsInterop": false
     },
     "@fortawesome/free-solid-svg-icons": {
       "src": "../../../node_modules/@fortawesome/free-solid-svg-icons/index.mjs",
       "file": "@fortawesome_free-solid-svg-icons.js",
-      "fileHash": "31c301c0",
+      "fileHash": "578a6809",
       "needsInterop": false
     },
     "@fortawesome/pro-solid-svg-icons": {
       "src": "../../../node_modules/@fortawesome/pro-solid-svg-icons/index.mjs",
       "file": "@fortawesome_pro-solid-svg-icons.js",
-      "fileHash": "7cc96cdb",
+      "fileHash": "dc269436",
       "needsInterop": false
     }
   },

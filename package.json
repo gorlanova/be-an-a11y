@@ -1,4 +1,21 @@
 {
+  "description": "Minuit - A clean and accessible UI library + design system for Vue 3",
+  "keywords": [
+    "accessibility",
+    "a11y",
+    "inclusivity",
+    "guidelines",
+    "WCAG",
+    "checklist",
+    "design",
+    "content",
+    "code"
+  ],
+  "author": {
+    "name": "Nina Gautreau"
+  },
+  "homepage": "https://be-an-a11y.netlify.app/",
+  "license": "MIT",
   "scripts": {
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",

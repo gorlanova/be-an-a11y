@@ -21,9 +21,7 @@ This documentation provides an interactive list of the WCAG guidelines, with cat
 
 ## How I present the guidelines
 
-The list of guidelines will follow the _Principle > Guideline > Criterion_ structure of the WCAG, and each criterion will display color-coded tags for the team involved, the difficulty to implement and the level of conformance. You will be able to filter the list with these tags. You can expand each criterion to access a detailed description, examples, and methods to implement it.
-
-<!-- @TODO: explain tags -->
+The list of guidelines will follow the _Principle > Guideline > Criterion_ structure of the WCAG, and each criterion will display color-coded tags for the team involved, the difficulty to implement and the level of conformance. You will be able to filter the list with a searchbar and these tags. You can expand each criterion to access a detailed description, examples, and methods to implement it.
 
 <div class="vp-raw">
   <Container gap="var(--size-8)">
