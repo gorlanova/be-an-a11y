@@ -6,8 +6,8 @@ export default defineConfig({
   description: "Demystifying the WCAG Guidelines - A guide to web accessibility",
 
   head: [
-    ["link", { rel: "icon", type: "image/svg+xml", href: "/accessibility-light.svg" }],
-    ["link", { rel: "icon", type: "image/svg+xml", href: "/accessibility-dark.svg", media: "(prefers-color-scheme: dark)" }],
+    ["link", { rel: "icon", type: "image/svg+xml", href: "/accessibility-dark.svg" }],
+    ["link", { rel: "icon", type: "image/svg+xml", href: "/accessibility-light.svg", media: "(prefers-color-scheme: dark)" }],
     ["link", { rel: "canonical", href: "https://be-an-a11y.netlify.app" }],
     ["meta", { name: "color-scheme", content: "light dark" }],
     ["meta", { name: "theme-color", content: "#ffffff" }],
