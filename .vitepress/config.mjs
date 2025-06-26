@@ -12,7 +12,7 @@ export default defineConfig({
     ["meta", { name: "color-scheme", content: "light dark" }],
     ["meta", { name: "theme-color", content: "#ffffff" }],
     ["meta", { name: "theme-color", content: "#000000", media: "(prefers-color-scheme: dark)" }],
-    ["meta", { name: "author", content: "Nina Gautreau" }],
+    ["meta", { name: "author", content: "Nina G." }],
     ["meta", { name: "keywords", content: "accessibility, a11y, wcag, web development, web design" }],
     ["meta", { name: "application-name", content: "Be an A11y" }],
     // og tags
@@ -77,7 +77,6 @@ export default defineConfig({
 
     footer: {
       message: "Released under the MIT License",
-      copyright: `Copyright © ${new Date().getFullYear()} Nina Gautreau`,
     },
   },
 });
