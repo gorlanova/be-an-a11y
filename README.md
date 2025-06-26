@@ -24,6 +24,10 @@ This documentation also includes additional resources such as:
 - A translation of the documentation in French
 - When appropriate, an update to the WCAG 3.0 guidelines (not yet released)
 
+## Feedback
+
+You can give me feedback (good or bad, try to remain constructive when pointing towards negative stuff) in the "Discussion" tab. If your feedback is more of an issue you would like me to be aware of, please refer to the "Contributing" section
+
 ## Contributing
 
 If you want to contribute to this project, you can do so by:
