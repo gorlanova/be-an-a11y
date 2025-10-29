@@ -17,7 +17,7 @@
   }
 </script>
 
-This documentation provides an interactive list of the WCAG guidelines, with categories, filters and complementary resources. It is designed to make the guidelines easier to browse and understand. It is not a replacement for the official documentation, but a nice companion.
+This documentation provides an interactive list of the WCAG, with categories, filters and complementary resources. It is designed to make the guidelines easier to browse and understand. It is not a replacement for the official documentation, but a nice companion.
 
 ## How I present the guidelines
 

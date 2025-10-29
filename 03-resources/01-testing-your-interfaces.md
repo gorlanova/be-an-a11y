@@ -1,6 +1,6 @@
 # Testing your Interfaces
 
-Implementing the WCAG guidelines is only the first step in making your web pages accessible. You also need to test your interfaces to ensure they meet the standards and provide a good user experience.
+Implementing the WCAG is only the first step in making your web pages accessible. You also need to test your interfaces to ensure they meet the standards and provide a good user experience.
 
 Testing tools can help you identify issues in your web pages, but they are not a substitute for manual testing. You should always test your interfaces manually, and use your brain to determine if the issues reported by the tools are relevant to your website, or to detect issues that the tools may not catch.
 

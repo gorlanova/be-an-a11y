@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: Be an a11y
-  text: Demystifying the WCAG Guidelines
+  text: Demystifying the WCAG content
   tagline: A guide to web accessibility
 
   image:
@@ -17,12 +17,12 @@ hero:
       link: /01-get-started/01-introduction
     - theme: alt
       text: Guidelines
-      link: /02-guidelines/01-wcag-guidelines
+      link: /02-guidelines/01-wcag-content
 
 features:
   - icon: 💡
     title: Clear language
-    details: Human-friendly explanations of the WCAG guidelines
+    details: Human-friendly explanations of the WCAG content
   - icon: 🧬
     title: Checklists
     details: Actionable steps to make your content accessible

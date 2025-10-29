@@ -4,7 +4,7 @@ I chose to release this personal project as open source, because I believe that 
 
 This documentation aims to provide a comprehensive overview of web accessibility, its importance, and how to implement it in your projects. It is designed for developers, designers, and anyone interested in making the web a more inclusive place. It covers the official standards, best practices, and resources.
 
-This documentation provides an interactive list of the WCAG guidelines, with categories, filters and complementary resources. It is designed to make the guidelines easier to browse and understand. It is not a replacement for the official documentation, but a nice companion.
+This documentation provides an interactive list of the WCAG content, with categories, filters and complementary resources. It is designed to make the guidelines easier to browse and understand. It is not a replacement for the official documentation, but a nice companion.
 
 ## How I present the guidelines
 
@@ -22,7 +22,7 @@ This documentation also includes additional resources such as:
 ## Roadmap
 
 - A translation of the documentation in French
-- When appropriate, an update to the WCAG 3.0 guidelines (not yet released)
+- When appropriate, an update to the WCAG 3.0 content (not yet released)
 
 ## Feedback
 

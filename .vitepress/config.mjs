@@ -3,7 +3,7 @@ import { defineConfig } from "vitepress";
 
 export default defineConfig({
   title: "✨ Be an a11y",
-  description: "Demystifying the WCAG Guidelines - A guide to web accessibility",
+  description: "Demystifying the WCAG content - A guide to web accessibility",
 
   head: [
     ["link", { rel: "icon", type: "image/svg+xml", href: "/accessibility-dark.svg" }],
@@ -17,7 +17,7 @@ export default defineConfig({
     ["meta", { name: "application-name", content: "Be an A11y" }],
     // og tags
     ["meta", { property: "og:title", content: "✨ Be an a11y" }],
-    ["meta", { property: "og:description", content: "Demystifying the WCAG Guidelines - A guide to web accessibility" }],
+    ["meta", { property: "og:description", content: "Demystifying the WCAG content - A guide to web accessibility" }],
     ["meta", { property: "og:image", content: "https://be-an-a11y.netlify.app/card.png" }],
     ["meta", { property: "og:image:alt", content: "Web Accessibility logo" }],
     ["meta", { property: "og:url", content: "https://be-an-a11y.netlify.app" }],
@@ -25,7 +25,7 @@ export default defineConfig({
     // twitter tags
     ["meta", { name: "twitter:card", content: "summary_large_image" }],
     ["meta", { name: "twitter:title", content: "✨ Be an a11y" }],
-    ["meta", { name: "twitter:description", content: "Demystifying the WCAG Guidelines - A guide to web accessibility" }],
+    ["meta", { name: "twitter:description", content: "Demystifying the WCAG content - A guide to web accessibility" }],
     ["meta", { name: "twitter:image", content: "https://be-an-a11y.netlify.app/card.png" }],
     ["meta", { name: "twitter:image:alt", content: "Web Accessibility logo" }],
   ],
@@ -33,7 +33,7 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: "Get started", link: "/01-get-started/01-introduction" },
-      { text: "Guidelines", link: "/02-guidelines/01-wcag-guidelines" },
+      { text: "WCAG content", link: "/02-guidelines/01-wcag-content" },
       { text: "Resources", link: "/03-resources/01-testing-your-interfaces" },
     ],
 
@@ -51,7 +51,7 @@ export default defineConfig({
       {
         text: "Guidelines",
         items: [
-          { text: "WCAG Guidelines", link: "/02-guidelines/01-wcag-guidelines" },
+          { text: "WCAG content", link: "/02-guidelines/01-wcag-content" },
           { text: "Checklist - Design", link: "/02-guidelines/02-checklist-design" },
           { text: "Checklist - Content", link: "/02-guidelines/03-checklist-content" },
           { text: "Checklist - Code", link: "/02-guidelines/04-checklist-code" },

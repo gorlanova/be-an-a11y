@@ -1,4 +1,4 @@
-# WCAG Guidelines
+# WCAG Content
 
 <script setup>
   import Details from '../components/details.vue';

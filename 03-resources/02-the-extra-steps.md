@@ -2,7 +2,7 @@
 
 *Accessibility is a start, not a finish line.*
 
-The WCAG guidelines are a vital baseline, but **inclusive design** shifts the conversation from “bare-minimum compliance” to human-centered design. It considers cultural, emotional, cognitive, and personal context to build experiences that work for everyone, not just the average user.
+The WCAG are a vital baseline, but **inclusive design** shifts the conversation from “bare-minimum compliance” to human-centered design. It considers cultural, emotional, cognitive, and personal context to build experiences that work for everyone, not just the average user.
 
 - **Accessibility** is about ensuring people can use your product
 - **Inclusivity** is about ensuring people feel respected, understood, and welcomed when they do
